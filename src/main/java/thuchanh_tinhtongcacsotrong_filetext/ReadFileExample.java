@@ -28,6 +28,7 @@ public class ReadFileExample {
     }
 
     public static void main(String[] args) {
+//        "./src/main/resources/numbers"  cách lấy đường dẫn
         System.out.println("Nhập đường dẫn file: ");
         Scanner sc = new Scanner(System.in);
         String path = sc.nextLine();
